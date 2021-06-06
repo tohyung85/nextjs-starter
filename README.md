@@ -2,6 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Additional Configurations Included:
 
-- Material UI
+- Material UI & Icons
 - Typescript
 - SCSS
+- Next Images
