@@ -5,4 +5,4 @@ Additional Configurations Included:
 - Material UI & Icons
 - Typescript
 - SCSS
-- Next Images
+- Next Optmized Images - jpg, png and svg types
