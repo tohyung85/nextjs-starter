@@ -7,3 +7,4 @@ Additional Configurations Included:
 - SCSS
 - Next Images
 - Next Bundle Analyzer
+- Redux with next-redux-wrapper for SSG/SSR
