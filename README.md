@@ -8,3 +8,4 @@ Additional Configurations Included:
 - Next Images
 - Next Bundle Analyzer
 - Redux with next-redux-wrapper for SSG/SSR
+- next-redux-cookie-persist to maintain state across reloads
