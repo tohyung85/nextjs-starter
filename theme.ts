@@ -1,6 +1,6 @@
-import { createMuiTheme, Theme } from "@material-ui/core/styles";
+import { createTheme, Theme } from "@material-ui/core/styles";
 
-const dayTheme = createMuiTheme({
+const dayTheme = createTheme({
   typography: {
     fontFamily: "Lato",
   },
@@ -19,7 +19,7 @@ const dayTheme = createMuiTheme({
   },
 });
 
-const nightTheme = createMuiTheme({
+const nightTheme = createTheme({
   palette: {
     primary: {
       main: "#01539c",
