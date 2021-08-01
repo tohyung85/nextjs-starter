@@ -6,3 +6,4 @@ Additional Configurations Included:
 - Typescript
 - SCSS
 - Next Images
+- Next Bundle Analyzer
