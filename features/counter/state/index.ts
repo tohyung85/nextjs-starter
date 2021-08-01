@@ -14,6 +14,9 @@ const counterSlice = createSlice({
       console.log("increment by", action.payload);
       state.count += action.payload;
     },
+    reset(state: SliceState) {
+      state.count = 0;
+    },
   },
   extraReducers: {
     [HYDRATE]: (state, action) => {
@@ -28,7 +31,7 @@ const counterSlice = createSlice({
   },
 });
 
-export const { increment } = counterSlice.actions;
+export const { increment, reset } = counterSlice.actions;
 
 export const reducer = counterSlice.reducer;
 
