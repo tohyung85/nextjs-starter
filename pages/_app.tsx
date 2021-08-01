@@ -5,8 +5,9 @@ import { ThemeProvider } from "@material-ui/core/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { dayTheme } from "../theme";
 import { StylesProvider } from "@material-ui/core/styles";
+import { wrapper } from "../store";
 
-export default function MyApp(props: AppProps) {
+const MyApp = (props: AppProps) => {
   const { Component, pageProps } = props;
 
   React.useEffect(() => {
@@ -33,8 +34,9 @@ export default function MyApp(props: AppProps) {
           <CssBaseline />
           <Component {...pageProps} />
         </StylesProvider>
-        ;
       </ThemeProvider>
     </React.Fragment>
   );
-}
+};
+
+export default wrapper.withRedux(MyApp);
